@@ -79,10 +79,11 @@ justify-content:center;
     border-width: thin;
     display : flex;
     flex-wrap: wrap;
+    justify-content : center;
 
 }
 
-/*
+
 .title_card{
 align-items : center;
 text-align: center
@@ -95,12 +96,13 @@ text-align: center
 align-items : center;
 text-align: center
 }
-*/
+
 .card_class{
 
 align-items : center;
 text-align: center;
-height : 16vh;
+
+height : 100%;
 
 }
 
