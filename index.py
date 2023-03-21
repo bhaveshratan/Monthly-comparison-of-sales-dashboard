@@ -5,9 +5,8 @@ import dash_bootstrap_components as dbc
 import numpy as np
 import plotly.express as px
 import dash.exceptions
-import time
 
-# Turn the dataset into dataframe
+# get the data frame from csv file
 
 retail = pd.read_csv('sales-data.csv')
 retail['Date'] = pd.to_datetime(retail['Date'], format='%Y-%m-%d')
